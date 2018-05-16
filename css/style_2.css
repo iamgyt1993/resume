@@ -1,0 +1,37 @@
+/* div.container{
+    height: 1000px;
+} */
+div.header{
+    float: left;
+    width: 130px;
+    margin: 0%;
+    height: 700px;
+    color: white;
+    background-color: #6495ED;
+    padding-left:60px;
+    padding-top:40px; 
+
+}
+div.body{
+    float: left;
+    padding-left: 30px;
+}
+span{
+    float: left;
+    margin: 0%;
+    font-weight: 700;
+}
+p{
+    float: left;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+h2{
+    clear: both;   
+}
+span.span2{
+    clear: both;
+}
+p.p2{
+    clear: both;
+}

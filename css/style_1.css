@@ -1,0 +1,20 @@
+
+span{
+    float: left;
+    margin: 0%;
+    font-weight: 700;
+}
+p{
+    float: left;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+h2{
+    clear: both;   
+}
+span.span2{
+    clear: both;
+}
+p.p2{
+    clear: both;
+}
