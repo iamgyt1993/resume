@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>简历</title>
-    <link rel="stylesheet" type="text/css" href="css/style_3.css">
+    <link rel="stylesheet" type="text/css" href="css/style_2.css">
 </head>
 <body>
     
@@ -95,6 +95,19 @@
         
 
     </div>
+
+    <div class="sayHi">
+        <p id="hi">你想知道我的爱好吗？那么请告诉我的你名字吧！</p>
+        <input id="name-input" type="text" placeholder="你的名字是什么呢？">
+        <br>
+        <button id = "send">和我打个招呼</button>
+    </div>
+    <script>
+    
+        document.getElementById("send").onclick = function() {
+            document.getElementById("hi").innerHTML =  'hello' + document.getElementById("name-input").value + '我的爱好是看书 ' ;
+        }
+    </script>
     
 
 </body>
